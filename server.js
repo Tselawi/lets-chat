@@ -41,6 +41,6 @@ mongoose.connect(dbUrl, (err) => {
   console.log("mongodb connention successful");
 });
 
-let server = http.listen(3020, () => {
-  console.log(`Server is listening on port`, server.address().port);
+let server = http.listen(port, () => {
+  console.log(`Server is listening on port %d`, port);
 });
