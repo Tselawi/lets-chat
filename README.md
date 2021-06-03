@@ -16,7 +16,7 @@
   </a>
 </p>
 
-## Install
+## Install 
 
 ```sh
 npm init -y
@@ -25,6 +25,9 @@ npm i body-parser
 npm i socket.io
 npm install mongoose
 ```
+## Tools & framework
+
+* Bootstrap 4
 
 ## Run tests
 
