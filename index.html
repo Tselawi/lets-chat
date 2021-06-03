@@ -51,12 +51,12 @@
         }
 
         function getMessages() {
-            $.get('https://letschatsapp.herokuapp.com//messages', (data) => {
+            $.get('https://letschatsapp.herokuapp.com/messages', (data) => {
                 data.forEach(addMessage);
             });
         }
         function postMessage(message) {
-            $.post('https://letschatsapp.herokuapp.com//messages', message)
+            $.post('https://letschatsapp.herokuapp.com/messages', message)
         }
 
     </script>
