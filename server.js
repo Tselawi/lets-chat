@@ -4,7 +4,7 @@ let app = express();
 let http = require("http").Server(app);
 let io = require("socket.io")(http);
 let mongoose = require("mongoose");
-const { stringify } = require("querystring");
+let port = process.env.PORT || 5000;
 
 app.use(express.static(__dirname));
 app.use(bodyParser.json());
